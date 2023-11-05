@@ -3,16 +3,19 @@
 Welcome to the shopping world of Istanbul! Our dataset contains shopping information from 10 different shopping malls between 2021 and 2023. We have gathered data from various age groups and genders to provide a comprehensive view of shopping habits in Istanbul. The dataset includes essential information such as invoice numbers, customer IDs, age, gender, payment methods, product categories, quantity, price, order dates, and shopping mall locations. This dataset will be a valuable resource for researchers, data analysts, and machine learning enthusiasts who want to gain insights into shopping trends and patterns in Istanbul. Explore the dataset and discover the fascinating world of Istanbul shopping!
 
 # Contents
-invoice_no: Invoice number. Nominal. A combination of the letter 'I' and a 6-digit integer is uniquely assigned to each operation.
-customer_id: Customer number. Nominal. A combination of the letter 'C' and a 6-digit integer is uniquely assigned to each operation.
-Gender: String variable of the customer's gender.
-Age: Positive Integer variable of the customer's age.
-Category: String variable of the category of the purchased product.
-Quantity: The quantities of each product (item) per transaction. Numeric.
-Price: Unit price. Numeric. Product price per unit in Dollar.
-payment_method: String variable of the payment method (cash, credit card, or debit card) used for the transaction.
-invoice_date Invoice date. The day when a transaction was generated.
-shopping_mall: String variable of the name of the shopping mall where the transaction was made.
+## Dataset Description
+
+- **invoice_no:** Invoice number. A unique identifier for each operation. It's a combination of the letter 'I' and a 6-digit integer.
+- **customer_id:** Customer number. A unique identifier for each operation. It's a combination of the letter 'C' and a 6-digit integer.
+- **Gender:** The gender of the customer, stored as a string variable.
+- **Age:** Positive integer variable representing the customer's age.
+- **Category:** The category of the purchased product, stored as a string variable.
+- **Quantity:** The quantities of each product (item) per transaction, stored as a numeric variable.
+- **Price:** Unit price, representing the product price per unit in dollars.
+- **payment_method:** String variable indicating the payment method used for the transaction (e.g., cash, credit card, or debit card).
+- **invoice_date:** The date when a transaction was generated.
+- **shopping_mall:** String variable representing the name of the shopping mall where the transaction took place.
+
 
 # Project Overview
   Project Description:
@@ -82,9 +85,9 @@ Include some exciting code/features worked with
 # Results/Findings
 The analysis results are summarized as follows:
 
-    Customers prefer cash to payment to the card.
-    Technology Product  is the best-performing category in terms of sales and revenue.
-    Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
+- Customers prefer cash to payment to the card.
+- Technology Product  is the best-performing category in terms of sales and revenue.
+- Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
 
 # Recommendations
 Based on the analysis, we recommend the following actions:
